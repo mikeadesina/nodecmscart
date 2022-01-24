@@ -144,7 +144,7 @@ app.use('/users', users);
 app.use('/', pages);
 
 // Start the server
-var port = 4000;
+const port = 4000;
 app.listen(port, function () {
     console.log('Server started on port ' + port);
 });
